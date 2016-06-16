@@ -1,12 +1,10 @@
-//Create an object literal with 3 properties
+//1.Create an object literal with 3 properties
+//2.Create an object variable and output each object property in a //concatenated string onto the webpage
 var cube= {
     height:10,
     width:12,
-    depth:15
+    depth:15,
 };
 
-var dimension1 = cube.height;
-var dimension2 = cube.width;
-var dimension3 = cube.depth;
 
-document.getElementById("obProp").innerHTML = "the cube's dimensions are " + dimension1 + "cm by " + dimension2 + "cm by " + dimension3;
+document.getElementById("obProp").innerHTML = "the cube's dimensions are " + cube.height + "cm by " + cube.width + "cm by " + cube.depth + ".";
